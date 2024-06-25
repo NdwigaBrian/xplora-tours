@@ -1,0 +1,73 @@
+<app-navbar></app-navbar>
+<body>
+    <main>
+      <section id="home">
+        <h2>Explore Different Areas</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&w=600"width="300px"></div>
+          <div class="grid-item"><img src="https://images.pexels.com/photos/4356144/pexels-photo-4356144.jpeg?auto=compress&cs=tinysrgb&w=600"width=300px></div>
+          <div class="grid-item"><img src="https://images.pexels.com/photos/5607897/pexels-photo-5607897.jpeg?auto=compress&cs=tinysrgb&w=600"width=200px></div>
+          <div class="grid-item"><img src="https://images.pexels.com/photos/5472298/pexels-photo-5472298.jpeg?auto=compress&cs=tinysrgb&w=600"width="200px"></div>
+        </div>
+      </section>
+  
+      <section id="dashboard">
+        <h2>Your Dashboard</h2>
+        <div class="dashboard-content">
+          <h3>Your Bookings</h3>
+          <p>No bookings yet.</p>
+          <h3>Your Reviews</h3>
+          <p>No reviews yet.</p>
+        </div>
+      </section>
+  
+      <section id="create-event">
+        <h2>Create a New Event</h2>
+        <form>
+          <label for="destination">Destination:</label>
+          <input type="text" id="destination" required>
+          
+          <label for="duration">Duration:</label>
+          <input type="text" id="duration" required>
+          
+          <label for="price">Price:</label>
+          <input type="text" id="price" required>
+          
+          <label for="tour-type">Tour Type:</label>
+          <select id="tour-type">
+            <option value="adventure">Adventure</option>
+            <option value="leisure">Leisure</option>
+            <option value="cultural">Cultural</option>
+          </select>
+          
+          <button type="submit">Create Event</button>
+        </form>
+      </section>
+  
+      <section id="all-events">
+        <h2>All Available Events</h2>
+        <input type="text" id="search" placeholder="Search for tours...">
+        <div class="filter">
+          <label for="filter-tour-type">Filter by Tour Type:</label>
+          <select id="filter-tour-type">
+            <option value="all">All</option>
+            <option value="adventure">Adventure</option>
+            <option value="leisure">Leisure</option>
+            <option value="cultural">Cultural</option>
+          </select>
+        </div>
+        <div class="events-list">
+          <div class="event-item">Event 1</div>
+          <div class="event-item">Event 2</div>
+          <div class="event-item">Event 3</div>
+        </div>
+      </section>
+    </main>
+  
+    <footer>
+      <p>&copy; 2024 Tour Website. All rights reserved.</p>
+    </footer>
+  </body>
+  
+  

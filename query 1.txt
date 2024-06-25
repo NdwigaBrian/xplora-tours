@@ -1,0 +1,9 @@
+a html code that has
+1.several grids showing different areas since it is a tour website
+2.a place for booking
+3.a place for review
+4.Personalized dashboard for users to track their bookings and reviews.
+5.a place for creating new events including destination,duration,price and tour type
+6.a place to display all available events,allow users to search for tours,filter based on tour type.
+7.enable users to book tours
+8.Users should be able to leave reviews for a tour they have experienced (reviews should be open only after duration when the tour is happening)

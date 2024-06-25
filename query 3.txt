@@ -1,0 +1,1 @@
+i am using backend and frontend. frontend i am using angular 18. i have mssql for my database. also i am using schema.prisma. how can i integrate my backend and frontend so that when i register. i can be able to login the next time

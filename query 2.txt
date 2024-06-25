@@ -1,0 +1,4 @@
+well my website needs to be able to register users. login. 
+users can create new events so the events need to be stored somewhere in a database(i am using mysql)
+also a place for storing events.
+can i put all these services in one service.
